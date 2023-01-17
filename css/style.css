@@ -228,3 +228,61 @@ body {
     gap: 0.625rem;
     font-size: 0.875rem;
 }
+
+@media screen and (max-width: 768px) {
+    .main .imgP {
+        height: 220px;
+    }
+    .capçalera {
+        background: rgba(255,255,255);
+    }
+    .capçalera .nav {
+        float: left;
+    }
+    .capçalera .nav ul li a {
+        color: rgba(0,0,0); font-weight: bold;
+    }
+    .capçalera .nav ul li a:hover { 
+        border-bottom: 1px solid #000;
+    }
+    .main .imgP {
+        background-position: right center;
+    }
+    .main .imgP .oscuro .titulo {
+        left: 0.9375rem;}
+    .main .imgP .oscuro .titulo h1 {font-size: 3rem;
+    }
+    .main .imgP .oscuro .titulo p {
+        width: 60%;
+    }
+    .main .cont .nos .seccion2 p {
+        position: relative; left: 0.625rem;
+    }
+    .main .imgP .oscuro .titulo {
+        top: 2.5rem; font-size: 14px;
+    }
+    .main .imgP .oscuro .titulo h1 {
+        font-size: 40px;
+    }
+    .main .imgP .oscuro .titulo p {
+        width: 100%; text-align: left;
+    }
+
+    .main .cont .nos .seccion1 img {
+        float: none; width: 100%; height: 270px;
+    }
+    .main .cont .nos .seccion1 p {
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    .main .cont .nos .seccion2 img {
+        float: none;
+        margin: 0.9375rem 0;
+        width: 100%;
+        height: 270px;
+    }
+    .main .cont .nos .seccion2 p { 
+        left: 0;
+    }
+}
